@@ -37,6 +37,8 @@ body {
 }
 
 .stats .description {
+    font-size: 14px;
+    font-weight: 400;
     color: var(--main-paragraph);
     line-height: 1.5;
     padding-bottom: 60px;
@@ -45,6 +47,7 @@ body {
 .social-info {
     display: flex;
     justify-content: space-between;
+    padding-right: 40px;
     color: var(--main-heading);
 }
 
