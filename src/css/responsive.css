@@ -1,0 +1,33 @@
+@media(max-width:425px) {
+    body {
+        text-align: center;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .card-image {
+        order: -1;
+    }
+
+    .stats {
+        padding: 12% 8%;
+    }
+
+    .stats .title {
+        font-size: 26px;
+    }
+
+    .stats .description {
+        padding-bottom: 40px;
+    }
+
+    .social-info {
+        flex-direction: column;
+    }
+
+    .social-info div {
+        margin-top: 20px;
+    }
+}
